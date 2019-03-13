@@ -1,0 +1,365 @@
+[29-Nov-2018 21:09:29 UTC] PHP Fatal error:  Maximum execution time of 1200 seconds exceeded in /app/public/wp-content/themes/university-theme/index.php on line 3
+[29-Nov-2018 21:09:42 UTC] PHP Fatal error:  Maximum execution time of 1200 seconds exceeded in /app/public/wp-content/themes/university-theme/index.php on line 3
+[29-Nov-2018 21:35:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_enqueue_sytle() in /app/public/wp-content/themes/university-theme/functions.php:4
+Stack trace:
+#0 /app/public/wp-includes/class-wp-hook.php(286): university_files('')
+#1 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /app/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /app/public/wp-includes/script-loader.php(1447): do_action('wp_enqueue_scri...')
+#4 /app/public/wp-includes/class-wp-hook.php(286): wp_enqueue_scripts('')
+#5 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /app/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /app/public/wp-includes/general-template.php(2614): do_action('wp_head')
+#8 /app/public/wp-content/themes/university-theme/header.php(5): wp_head()
+#9 /app/public/wp-includes/template.php(688): require_once('/app/public/wp-...')
+#10 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#11 /app/public/wp-i in /app/public/wp-content/themes/university-theme/functions.php on line 4
+[05-Dec-2018 01:14:41 UTC] PHP Warning:  Error while sending QUERY packet. PID=1269 in /app/public/wp-includes/wp-db.php on line 1924
+[06-Dec-2018 02:33:24 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_get_post_parent_id(), 0 passed in /app/public/wp-content/themes/university-theme/page.php on line 18 and exactly 1 expected in /app/public/wp-includes/post.php:6205
+Stack trace:
+#0 /app/public/wp-content/themes/university-theme/page.php(18): wp_get_post_parent_id()
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-includes/post.php on line 6205
+[06-Dec-2018 02:33:36 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_get_post_parent_id(), 0 passed in /app/public/wp-content/themes/university-theme/page.php on line 18 and exactly 1 expected in /app/public/wp-includes/post.php:6205
+Stack trace:
+#0 /app/public/wp-content/themes/university-theme/page.php(18): wp_get_post_parent_id()
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-includes/post.php on line 6205
+[06-Dec-2018 02:33:38 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_get_post_parent_id(), 0 passed in /app/public/wp-content/themes/university-theme/page.php on line 18 and exactly 1 expected in /app/public/wp-includes/post.php:6205
+Stack trace:
+#0 /app/public/wp-content/themes/university-theme/page.php(18): wp_get_post_parent_id()
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-includes/post.php on line 6205
+[06-Dec-2018 02:43:05 UTC] PHP Warning:  Use of undefined constant theParent - assumed 'theParent' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/university-theme/page.php on line 19
+[06-Dec-2018 02:43:05 UTC] PHP Warning:  Use of undefined constant theParent - assumed 'theParent' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/university-theme/page.php on line 21
+[06-Dec-2018 02:43:05 UTC] PHP Warning:  Use of undefined constant theParent - assumed 'theParent' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/university-theme/page.php on line 21
+[06-Dec-2018 02:43:15 UTC] PHP Warning:  Use of undefined constant theParent - assumed 'theParent' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/university-theme/page.php on line 19
+[06-Dec-2018 02:43:15 UTC] PHP Warning:  Use of undefined constant theParent - assumed 'theParent' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/university-theme/page.php on line 21
+[06-Dec-2018 02:43:15 UTC] PHP Warning:  Use of undefined constant theParent - assumed 'theParent' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/university-theme/page.php on line 21
+[01-Mar-2019 19:47:21 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/university-theme/page.php on line 40
+[09-Mar-2019 15:40:55 UTC] PHP Parse error:  syntax error, unexpected ''sort_column'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/university-theme/page.php on line 47
+[09-Mar-2019 15:41:01 UTC] PHP Parse error:  syntax error, unexpected ''sort_column'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/university-theme/page.php on line 47
+[09-Mar-2019 16:48:21 UTC] PHP Parse error:  syntax error, unexpected '>', expecting end of file in /app/public/wp-content/themes/university-theme/header.php on line 2
+[09-Mar-2019 17:12:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_nav_manu() in /app/public/wp-content/themes/university-theme/footer.php:17
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(76): locate_template(Array, true)
+#3 /app/public/wp-content/themes/university-theme/index.php(103): get_footer()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/university-theme/footer.php on line 17
+[09-Mar-2019 17:14:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_nav_manu() in /app/public/wp-content/themes/university-theme/footer.php:17
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(76): locate_template(Array, true)
+#3 /app/public/wp-content/themes/university-theme/index.php(103): get_footer()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/university-theme/footer.php on line 17
+[09-Mar-2019 17:15:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_nav_manu() in /app/public/wp-content/themes/university-theme/footer.php:17
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(76): locate_template(Array, true)
+#3 /app/public/wp-content/themes/university-theme/index.php(103): get_footer()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/university-theme/footer.php on line 17
+[09-Mar-2019 17:16:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_nav_manu() in /app/public/wp-content/themes/university-theme/footer.php:17
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(76): locate_template(Array, true)
+#3 /app/public/wp-content/themes/university-theme/index.php(103): get_footer()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/university-theme/footer.php on line 17
+[09-Mar-2019 17:16:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_nav_manu() in /app/public/wp-content/themes/university-theme/footer.php:17
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(76): locate_template(Array, true)
+#3 /app/public/wp-content/themes/university-theme/index.php(103): get_footer()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/university-theme/footer.php on line 17
+[09-Mar-2019 17:17:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_nav_manu() in /app/public/wp-content/themes/university-theme/footer.php:17
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(76): locate_template(Array, true)
+#3 /app/public/wp-content/themes/university-theme/index.php(103): get_footer()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/university-theme/footer.php on line 17
+[09-Mar-2019 17:18:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_nav_manu() in /app/public/wp-content/themes/university-theme/footer.php:17
+Stack trace:
+#0 /app/public/wp-includes/template.php(688): require_once()
+#1 /app/public/wp-includes/template.php(647): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(76): locate_template(Array, true)
+#3 /app/public/wp-content/themes/university-theme/index.php(103): get_footer()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/university-theme/footer.php on line 17
+[09-Mar-2019 17:58:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_permalinl() in /app/public/wp-content/themes/university-theme/index.php:28
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/university-theme/index.php on line 28
+[09-Mar-2019 20:55:34 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /app/public/wp-content/themes/university-theme/archive.php on line 16
+[10-Mar-2019 02:50:44 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /app/public/wp-content/themes/university-theme/functions.php on line 27
+[10-Mar-2019 02:51:03 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /app/public/wp-content/themes/university-theme/functions.php on line 27
+[10-Mar-2019 02:51:16 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /app/public/wp-content/themes/university-theme/functions.php on line 27
+[10-Mar-2019 02:52:38 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /app/public/wp-content/themes/university-theme/functions.php on line 27
+[10-Mar-2019 02:52:48 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /app/public/wp-content/themes/university-theme/functions.php on line 27
+[10-Mar-2019 02:52:58 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /app/public/wp-content/themes/university-theme/functions.php on line 27
+[10-Mar-2019 02:54:23 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /app/public/wp-content/themes/university-theme/functions.php on line 27
+[10-Mar-2019 02:54:24 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /app/public/wp-content/themes/university-theme/functions.php on line 27
+[10-Mar-2019 02:54:39 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /app/public/wp-content/themes/university-theme/functions.php on line 27
+[10-Mar-2019 02:55:34 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/university-theme/functions.php on line 28
+[10-Mar-2019 02:56:20 UTC] PHP Parse error:  syntax error, unexpected 'add_action' (T_STRING) in /app/public/wp-content/themes/university-theme/functions.php on line 27
+[10-Mar-2019 02:56:21 UTC] PHP Parse error:  syntax error, unexpected 'add_action' (T_STRING) in /app/public/wp-content/themes/university-theme/functions.php on line 27
+[10-Mar-2019 02:57:24 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /app/public/wp-content/themes/university-theme/functions.php on line 27
+[10-Mar-2019 02:59:06 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/university-theme/functions.php on line 32
+[10-Mar-2019 02:59:07 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/university-theme/functions.php on line 32
+[10-Mar-2019 02:59:10 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/university-theme/functions.php on line 32
+[10-Mar-2019 03:01:34 UTC] PHP Parse error:  syntax error, unexpected ''labels'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/university-theme/functions.php on line 31
+[10-Mar-2019 03:01:34 UTC] PHP Parse error:  syntax error, unexpected ''labels'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/university-theme/functions.php on line 31
+[10-Mar-2019 03:08:38 UTC] PHP Fatal error:  Cannot redeclare university_post_types() (previously declared in /app/public/wp-content/mu-plugins/university-post-types.php:4) in /app/public/wp-content/themes/university-theme/functions.php on line 28
+[10-Mar-2019 03:09:11 UTC] PHP Fatal error:  Cannot redeclare university_post_types() (previously declared in /app/public/wp-content/mu-plugins/university-post-types.php:4) in /app/public/wp-content/themes/university-theme/functions.php on line 28
+[10-Mar-2019 03:09:12 UTC] PHP Fatal error:  Cannot redeclare university_post_types() (previously declared in /app/public/wp-content/mu-plugins/university-post-types.php:4) in /app/public/wp-content/themes/university-theme/functions.php on line 28
+[10-Mar-2019 03:09:20 UTC] PHP Fatal error:  Cannot redeclare university_post_types() (previously declared in /app/public/wp-content/mu-plugins/university-post-types.php:4) in /app/public/wp-content/themes/university-theme/functions.php on line 28
+[10-Mar-2019 03:09:20 UTC] PHP Fatal error:  Cannot redeclare university_post_types() (previously declared in /app/public/wp-content/mu-plugins/university-post-types.php:4) in /app/public/wp-content/themes/university-theme/functions.php on line 28
+[10-Mar-2019 03:11:54 UTC] PHP Parse error:  syntax error, unexpected ''' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/mu-plugins/university-post-types.php on line 17
+[10-Mar-2019 03:11:55 UTC] PHP Parse error:  syntax error, unexpected ''' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/mu-plugins/university-post-types.php on line 17
+[10-Mar-2019 03:18:25 UTC] PHP Parse error:  syntax error, unexpected '>' in /app/public/wp-content/themes/university-theme/front-page.php on line 26
+[10-Mar-2019 03:42:03 UTC] PHP Parse error:  syntax error, unexpected ''public'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/mu-plugins/university-post-types.php on line 7
+[10-Mar-2019 03:48:24 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_post_type_archive_link(), 0 passed in /app/public/wp-content/themes/university-theme/single-event.php on line 18 and exactly 1 expected in /app/public/wp-includes/link-template.php:1134
+Stack trace:
+#0 /app/public/wp-content/themes/university-theme/single-event.php(18): get_post_type_archive_link()
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-includes/link-template.php on line 1134
+[10-Mar-2019 03:48:35 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_post_type_archive_link(), 0 passed in /app/public/wp-content/themes/university-theme/single-event.php on line 18 and exactly 1 expected in /app/public/wp-includes/link-template.php:1134
+Stack trace:
+#0 /app/public/wp-content/themes/university-theme/single-event.php(18): get_post_type_archive_link()
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-includes/link-template.php on line 1134
+[10-Mar-2019 03:48:39 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_post_type_archive_link(), 0 passed in /app/public/wp-content/themes/university-theme/single-event.php on line 18 and exactly 1 expected in /app/public/wp-includes/link-template.php:1134
+Stack trace:
+#0 /app/public/wp-content/themes/university-theme/single-event.php(18): get_post_type_archive_link()
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-includes/link-template.php on line 1134
+[11-Mar-2019 21:39:40 UTC] PHP Parse error:  syntax error, unexpected ''orderby'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/university-theme/front-page.php on line 61
+[11-Mar-2019 21:41:22 UTC] PHP Parse error:  syntax error, unexpected ''orderby'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/university-theme/front-page.php on line 23
+[11-Mar-2019 21:58:13 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/university-theme/functions.php on line 32
+[11-Mar-2019 22:00:38 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in /app/public/wp-content/themes/university-theme/functions.php on line 32
+[11-Mar-2019 22:07:01 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in /app/public/wp-content/themes/university-theme/page-past-events.php on line 18
+[11-Mar-2019 22:09:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /app/public/wp-content/themes/university-theme/page-past-events.php:31
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/university-theme/page-past-events.php on line 31
+[11-Mar-2019 22:09:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /app/public/wp-content/themes/university-theme/page-past-events.php:30
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/university-theme/page-past-events.php on line 30
+[11-Mar-2019 22:24:50 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'dashicons-awards' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[11-Mar-2019 22:25:22 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'dashicons-awards' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[11-Mar-2019 22:31:21 UTC] PHP Parse error:  syntax error, unexpected ''has_archive'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/mu-plugins/university-post-types.php on line 23
+[11-Mar-2019 22:31:23 UTC] PHP Parse error:  syntax error, unexpected ''has_archive'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/mu-plugins/university-post-types.php on line 23
+[11-Mar-2019 22:31:26 UTC] PHP Parse error:  syntax error, unexpected ''has_archive'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/mu-plugins/university-post-types.php on line 23
+[11-Mar-2019 23:17:03 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /app/public/wp-content/themes/university-theme/single-event.php on line 28
+[11-Mar-2019 23:22:38 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /app/public/wp-content/themes/university-theme/single-event.php on line 30
+[11-Mar-2019 23:22:42 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /app/public/wp-content/themes/university-theme/single-event.php on line 28
+[11-Mar-2019 23:25:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/university-theme/single-event.php on line 30
+[11-Mar-2019 23:26:44 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/university-theme/single-event.php on line 45
+[11-Mar-2019 23:27:10 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/university-theme/single-event.php on line 47
+[11-Mar-2019 23:27:32 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/university-theme/single-event.php on line 47
+[11-Mar-2019 23:28:26 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/university-theme/single-event.php on line 45
+[11-Mar-2019 23:28:28 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/university-theme/single-event.php on line 45
+[11-Mar-2019 23:28:30 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/university-theme/single-event.php on line 45
+[11-Mar-2019 23:28:45 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/university-theme/single-event.php on line 45
+[11-Mar-2019 23:33:46 UTC] PHP Parse error:  syntax error, unexpected '<' in /app/public/wp-content/themes/university-theme/single-event.php on line 18
+[11-Mar-2019 23:43:25 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE), expecting ',' or ';' in /app/public/wp-content/themes/university-theme/single-program.php on line 49
+[11-Mar-2019 23:45:34 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /app/public/wp-content/themes/university-theme/single-program.php on line 48
+[11-Mar-2019 23:46:26 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/university-theme/single-program.php on line 47
+[12-Mar-2019 01:14:43 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_image_size(), 0 passed in /app/public/wp-content/themes/university-theme/functions.php on line 24 and at least 1 expected in /app/public/wp-includes/media.php:277
+Stack trace:
+#0 /app/public/wp-content/themes/university-theme/functions.php(24): add_image_size()
+#1 /app/public/wp-includes/class-wp-hook.php(286): university_features('')
+#2 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /app/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /app/public/wp-settings.php(434): do_action('after_setup_the...')
+#5 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#6 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#7 /app/public/wp-blog-header.php(13): require_once('/app/public/wp-...')
+#8 /app/public/index.php(17): require('/app/public/wp-...')
+#9 {main}
+  thrown in /app/public/wp-includes/media.php on line 277
+[12-Mar-2019 01:14:47 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_image_size(), 0 passed in /app/public/wp-content/themes/university-theme/functions.php on line 24 and at least 1 expected in /app/public/wp-includes/media.php:277
+Stack trace:
+#0 /app/public/wp-content/themes/university-theme/functions.php(24): add_image_size()
+#1 /app/public/wp-includes/class-wp-hook.php(286): university_features('')
+#2 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /app/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /app/public/wp-settings.php(434): do_action('after_setup_the...')
+#5 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#6 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#7 /app/public/wp-blog-header.php(13): require_once('/app/public/wp-...')
+#8 /app/public/index.php(17): require('/app/public/wp-...')
+#9 {main}
+  thrown in /app/public/wp-includes/media.php on line 277
+[12-Mar-2019 01:15:11 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_image_size(), 0 passed in /app/public/wp-content/themes/university-theme/functions.php on line 24 and at least 1 expected in /app/public/wp-includes/media.php:277
+Stack trace:
+#0 /app/public/wp-content/themes/university-theme/functions.php(24): add_image_size()
+#1 /app/public/wp-includes/class-wp-hook.php(286): university_features('')
+#2 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /app/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /app/public/wp-settings.php(434): do_action('after_setup_the...')
+#5 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#6 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#7 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/media.php on line 277
+[12-Mar-2019 01:15:19 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_image_size(), 0 passed in /app/public/wp-content/themes/university-theme/functions.php on line 24 and at least 1 expected in /app/public/wp-includes/media.php:277
+Stack trace:
+#0 /app/public/wp-content/themes/university-theme/functions.php(24): add_image_size()
+#1 /app/public/wp-includes/class-wp-hook.php(286): university_features('')
+#2 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /app/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /app/public/wp-settings.php(434): do_action('after_setup_the...')
+#5 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#6 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#7 /app/public/wp-blog-header.php(13): require_once('/app/public/wp-...')
+#8 /app/public/index.php(17): require('/app/public/wp-...')
+#9 {main}
+  thrown in /app/public/wp-includes/media.php on line 277
+[12-Mar-2019 01:15:45 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_image_size(), 0 passed in /app/public/wp-content/themes/university-theme/functions.php on line 24 and at least 1 expected in /app/public/wp-includes/media.php:277
+Stack trace:
+#0 /app/public/wp-content/themes/university-theme/functions.php(24): add_image_size()
+#1 /app/public/wp-includes/class-wp-hook.php(286): university_features('')
+#2 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /app/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /app/public/wp-settings.php(434): do_action('after_setup_the...')
+#5 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#6 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#7 /app/public/wp-blog-header.php(13): require_once('/app/public/wp-...')
+#8 /app/public/index.php(17): require('/app/public/wp-...')
+#9 {main}
+  thrown in /app/public/wp-includes/media.php on line 277
+[12-Mar-2019 01:15:47 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_image_size(), 0 passed in /app/public/wp-content/themes/university-theme/functions.php on line 24 and at least 1 expected in /app/public/wp-includes/media.php:277
+Stack trace:
+#0 /app/public/wp-content/themes/university-theme/functions.php(24): add_image_size()
+#1 /app/public/wp-includes/class-wp-hook.php(286): university_features('')
+#2 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /app/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /app/public/wp-settings.php(434): do_action('after_setup_the...')
+#5 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#6 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#7 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/media.php on line 277
+[12-Mar-2019 01:15:51 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_image_size(), 0 passed in /app/public/wp-content/themes/university-theme/functions.php on line 24 and at least 1 expected in /app/public/wp-includes/media.php:277
+Stack trace:
+#0 /app/public/wp-content/themes/university-theme/functions.php(24): add_image_size()
+#1 /app/public/wp-includes/class-wp-hook.php(286): university_features('')
+#2 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /app/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /app/public/wp-settings.php(434): do_action('after_setup_the...')
+#5 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#6 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#7 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#8 {main}
+  thrown in /app/public/wp-includes/media.php on line 277
+[12-Mar-2019 01:37:20 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/university-theme/single-professor.php on line 48
+[12-Mar-2019 02:11:01 UTC] PHP Warning:  Illegal string offset 'sizes' in /app/public/wp-content/themes/university-theme/functions.php on line 15
+[12-Mar-2019 02:11:01 UTC] PHP Warning:  Illegal string offset 'pageBanner' in /app/public/wp-content/themes/university-theme/functions.php on line 15
+[12-Mar-2019 02:14:20 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function pageBanner(), 0 passed in /app/public/wp-content/themes/university-theme/page.php on line 5 and exactly 1 expected in /app/public/wp-content/themes/university-theme/functions.php:3
+Stack trace:
+#0 /app/public/wp-content/themes/university-theme/page.php(5): pageBanner()
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/university-theme/functions.php on line 3
+[12-Mar-2019 02:18:10 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/university-theme/archive.php on line 5
+[12-Mar-2019 02:24:45 UTC] PHP Parse error:  syntax error, unexpected '?' in /app/public/wp-content/themes/university-theme/front-page.php on line 39
+[12-Mar-2019 02:36:06 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/university-theme/page-past-events.php on line 31
+[12-Mar-2019 02:39:13 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/university-theme/single-program.php on line 85
+[12-Mar-2019 17:06:30 UTC] PHP Warning:  Use of undefined constant campus - assumed 'campus' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/university-theme/header.php on line 21
+[12-Mar-2019 17:06:34 UTC] PHP Warning:  Use of undefined constant campus - assumed 'campus' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/university-theme/header.php on line 21
+[12-Mar-2019 17:06:55 UTC] PHP Warning:  Use of undefined constant campus - assumed 'campus' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/university-theme/header.php on line 21
+[12-Mar-2019 17:06:59 UTC] PHP Warning:  Use of undefined constant campus - assumed 'campus' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/university-theme/header.php on line 21
+[12-Mar-2019 17:07:00 UTC] PHP Warning:  Use of undefined constant campus - assumed 'campus' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/university-theme/header.php on line 21
+[12-Mar-2019 17:20:13 UTC] PHP Parse error:  syntax error, unexpected ''subtitle'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/university-theme/archive-campus.php on line 6
+[12-Mar-2019 18:19:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /app/public/wp-content/themes/university-theme/single-campus.php:40
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/university-theme/single-campus.php on line 40
+[12-Mar-2019 18:31:19 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/university-theme/single-program.php on line 93
+[12-Mar-2019 18:34:44 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/university-theme/single-program.php on line 101
+[12-Mar-2019 21:06:09 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_localize_script(), 0 passed in /app/public/wp-content/themes/university-theme/functions.php on line 48 and exactly 3 expected in /app/public/wp-includes/functions.wp-scripts.php:185
+Stack trace:
+#0 /app/public/wp-content/themes/university-theme/functions.php(48): wp_localize_script()
+#1 /app/public/wp-includes/class-wp-hook.php(286): university_files('')
+#2 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /app/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /app/public/wp-includes/script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 /app/public/wp-includes/class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 /app/public/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /app/public/wp-includes/general-template.php(2614): do_action('wp_head')
+#9 /app/public/wp-content/themes/university-theme/header.ph in /app/public/wp-includes/functions.wp-scripts.php on line 185
+[12-Mar-2019 22:00:29 UTC] PHP Parse error:  syntax error, unexpected ''postType'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/university-theme/inc/search-route.php on line 33
+[13-Mar-2019 00:09:33 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/university-theme/functions.php on line 157
+[13-Mar-2019 00:09:40 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/university-theme/functions.php on line 157
+[13-Mar-2019 00:09:44 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/university-theme/functions.php on line 157
+[13-Mar-2019 00:52:50 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /app/public/wp-content/mu-plugins/university-post-types.php on line 72
+[13-Mar-2019 03:07:22 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in /app/public/wp-content/themes/university-theme/functions.php on line 61
+[13-Mar-2019 13:43:54 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /app/public/wp-content/mu-plugins/university-post-types.php on line 6
+[13-Mar-2019 13:44:00 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /app/public/wp-content/mu-plugins/university-post-types.php on line 6
+[13-Mar-2019 13:44:01 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /app/public/wp-content/mu-plugins/university-post-types.php on line 6
